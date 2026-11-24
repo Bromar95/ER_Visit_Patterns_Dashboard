@@ -1,0 +1,601 @@
+visit_id,visit_date,visit_time_hour,patient_age,gender,visit_reason,triage_level,wait_time_minutes
+1,2025-01-10,8,70,Female,Headache,High,17
+2,2025-04-11,22,13,Male,Headache,Low,196
+3,2025-01-16,21,67,Male,Abdominal Pain,Low,13
+4,2025-03-06,11,1,Male,Other,Low,237
+5,2025-04-24,8,16,Male,Injury,Medium,60
+6,2025-01-29,8,42,Female,Allergic Reaction,High,164
+7,2025-03-31,16,5,Female,Chest Pain,Low,156
+8,2025-04-04,22,52,Male,Chest Pain,Medium,230
+9,2025-04-23,1,56,Female,Allergic Reaction,Low,30
+10,2025-01-30,2,39,Male,Other,Medium,218
+11,2025-04-24,19,59,Male,Chest Pain,Low,229
+12,2025-01-09,13,57,Male,Other,Low,83
+13,2025-03-15,13,46,Female,Headache,Low,32
+14,2025-01-01,8,25,Male,Abdominal Pain,Low,131
+15,2025-04-17,6,13,Female,Headache,Medium,26
+16,2025-02-10,7,56,Female,Breathing Difficulty,Medium,144
+17,2025-04-29,15,16,Male,Injury,Low,186
+18,2025-02-06,5,42,Male,Chest Pain,Low,186
+19,2025-04-26,17,40,Male,Fever,High,134
+20,2025-01-17,6,36,Female,Fever,Medium,29
+21,2025-04-11,6,9,Female,Fever,Medium,183
+22,2025-04-22,11,67,Male,Chest Pain,Medium,38
+23,2025-01-12,23,6,Male,Headache,High,124
+24,2025-02-24,5,25,Female,Chest Pain,Critical,60
+25,2025-03-30,9,40,Female,Injury,Low,87
+26,2025-04-18,2,21,Male,Injury,Low,121
+27,2025-03-04,4,32,Male,Abdominal Pain,Low,95
+28,2025-02-03,10,17,Male,Breathing Difficulty,Critical,124
+29,2025-03-14,18,39,Female,Allergic Reaction,Medium,172
+30,2025-04-11,0,28,Male,Headache,Medium,183
+31,2025-03-20,16,84,Male,Headache,Low,63
+32,2025-02-19,22,41,Male,Chest Pain,Low,155
+33,2025-02-21,8,53,Female,Injury,Medium,239
+34,2025-02-24,14,34,Female,Other,High,135
+35,2025-03-19,6,1,Male,Abdominal Pain,High,64
+36,2025-03-11,4,58,Male,Fever,Low,49
+37,2025-01-14,23,79,Male,Allergic Reaction,Low,35
+38,2025-04-26,7,79,Female,Injury,Low,210
+39,2025-01-26,0,53,Female,Injury,Low,112
+40,2025-01-14,6,67,Female,Breathing Difficulty,Medium,178
+41,2025-04-03,20,51,Female,Fever,Medium,211
+42,2025-03-28,14,27,Male,Abdominal Pain,Low,68
+43,2025-01-31,13,21,Male,Allergic Reaction,Medium,143
+44,2025-01-31,9,31,Female,Chest Pain,Low,238
+45,2025-03-31,12,45,Male,Headache,Medium,120
+46,2025-01-13,7,55,Male,Headache,Low,207
+47,2025-03-07,17,60,Female,Breathing Difficulty,Low,113
+48,2025-02-01,5,72,Female,Chest Pain,Low,157
+49,2025-02-27,1,48,Female,Injury,High,158
+50,2025-02-06,12,65,Male,Other,Medium,112
+51,2025-01-28,3,45,Male,Other,Medium,187
+52,2025-01-19,22,70,Male,Allergic Reaction,Low,169
+53,2025-04-04,19,14,Male,Abdominal Pain,Medium,27
+54,2025-03-19,17,2,Female,Chest Pain,Medium,79
+55,2025-01-23,0,84,Male,Breathing Difficulty,Low,126
+56,2025-01-24,7,73,Male,Chest Pain,Low,102
+57,2025-04-05,0,54,Male,Headache,Low,208
+58,2025-01-12,19,69,Female,Injury,Medium,40
+59,2025-01-29,18,86,Female,Other,High,77
+60,2025-03-16,7,83,Female,Injury,Low,216
+61,2025-03-30,5,4,Female,Other,Low,44
+62,2025-01-10,1,37,Male,Abdominal Pain,Critical,133
+63,2025-01-16,6,2,Female,Chest Pain,Low,223
+64,2025-01-19,21,6,Female,Breathing Difficulty,Medium,217
+65,2025-03-22,19,43,Male,Chest Pain,Low,228
+66,2025-04-29,23,25,Male,Injury,High,8
+67,2025-03-13,18,80,Female,Fever,Low,219
+68,2025-03-30,3,27,Male,Fever,High,8
+69,2025-01-12,4,17,Male,Allergic Reaction,Low,234
+70,2025-01-18,6,37,Female,Allergic Reaction,Low,39
+71,2025-02-16,4,70,Male,Allergic Reaction,Medium,80
+72,2025-01-08,2,50,Female,Breathing Difficulty,Low,172
+73,2025-03-17,22,83,Male,Abdominal Pain,Low,27
+74,2025-01-29,8,65,Female,Breathing Difficulty,High,92
+75,2025-02-03,8,22,Female,Fever,Critical,97
+76,2025-03-26,10,83,Male,Abdominal Pain,Medium,45
+77,2025-04-07,9,35,Female,Injury,Medium,69
+78,2025-03-30,20,16,Male,Fever,Medium,122
+79,2025-02-14,4,59,Male,Fever,Medium,136
+80,2025-01-06,12,37,Male,Chest Pain,Medium,188
+81,2025-01-05,23,59,Female,Fever,High,230
+82,2025-03-13,1,30,Male,Headache,Medium,105
+83,2025-03-30,7,55,Male,Chest Pain,Low,73
+84,2025-03-30,8,43,Male,Abdominal Pain,Low,197
+85,2025-02-20,11,11,Male,Chest Pain,High,53
+86,2025-04-19,16,83,Female,Abdominal Pain,Medium,228
+87,2025-02-24,10,81,Female,Breathing Difficulty,High,228
+88,2025-02-04,21,43,Female,Abdominal Pain,High,209
+89,2025-04-15,23,51,Male,Chest Pain,Medium,82
+90,2025-01-16,14,1,Female,Chest Pain,High,35
+91,2025-03-19,18,31,Male,Injury,Low,13
+92,2025-03-30,19,88,Male,Allergic Reaction,High,168
+93,2025-01-16,14,67,Female,Abdominal Pain,Critical,13
+94,2025-01-07,5,86,Female,Other,Low,50
+95,2025-04-29,3,50,Male,Chest Pain,High,83
+96,2025-03-27,0,2,Female,Abdominal Pain,Low,28
+97,2025-04-17,23,8,Male,Injury,Medium,86
+98,2025-01-23,23,89,Male,Chest Pain,Low,200
+99,2025-01-12,15,45,Female,Fever,High,211
+100,2025-04-23,15,63,Male,Injury,Critical,35
+101,2025-01-13,2,58,Male,Fever,Medium,30
+102,2025-04-03,0,40,Male,Breathing Difficulty,Low,118
+103,2025-04-07,3,85,Male,Abdominal Pain,Low,194
+104,2025-03-04,17,78,Female,Injury,High,20
+105,2025-04-29,9,85,Female,Abdominal Pain,Low,196
+106,2025-02-27,0,3,Male,Injury,High,201
+107,2025-04-24,0,24,Male,Abdominal Pain,High,222
+108,2025-03-21,15,57,Male,Fever,Low,10
+109,2025-04-19,18,15,Male,Injury,Low,234
+110,2025-04-15,4,38,Male,Breathing Difficulty,Medium,70
+111,2025-02-12,2,78,Male,Allergic Reaction,High,126
+112,2025-04-20,15,25,Male,Other,Medium,71
+113,2025-02-27,9,19,Female,Other,Low,136
+114,2025-04-18,7,50,Male,Allergic Reaction,Medium,218
+115,2025-04-08,1,37,Male,Chest Pain,Low,170
+116,2025-02-20,10,23,Male,Injury,High,169
+117,2025-02-15,19,59,Male,Other,Medium,158
+118,2025-02-10,5,60,Male,Other,Low,197
+119,2025-03-31,4,50,Male,Chest Pain,Medium,62
+120,2025-03-15,10,21,Male,Abdominal Pain,Medium,48
+121,2025-02-07,17,49,Male,Headache,Low,156
+122,2025-01-01,23,5,Female,Breathing Difficulty,Medium,61
+123,2025-01-19,8,58,Female,Headache,Medium,51
+124,2025-01-24,6,23,Male,Headache,Low,131
+125,2025-01-04,16,50,Male,Allergic Reaction,Low,174
+126,2025-01-30,20,83,Female,Chest Pain,Medium,224
+127,2025-01-17,3,41,Female,Injury,Low,205
+128,2025-03-26,16,25,Female,Breathing Difficulty,Low,84
+129,2025-03-24,12,17,Female,Allergic Reaction,Low,26
+130,2025-04-23,12,71,Female,Abdominal Pain,Low,182
+131,2025-01-15,1,4,Male,Allergic Reaction,Low,122
+132,2025-02-21,18,67,Male,Other,Medium,101
+133,2025-03-21,23,66,Female,Breathing Difficulty,Low,158
+134,2025-04-26,8,61,Female,Breathing Difficulty,High,109
+135,2025-01-18,22,49,Female,Abdominal Pain,Medium,214
+136,2025-02-20,16,64,Male,Injury,Low,11
+137,2025-02-23,19,10,Female,Abdominal Pain,Medium,32
+138,2025-01-26,21,10,Female,Breathing Difficulty,High,148
+139,2025-04-21,22,76,Male,Breathing Difficulty,High,42
+140,2025-02-18,19,84,Female,Abdominal Pain,Medium,14
+141,2025-04-17,22,74,Male,Headache,Low,233
+142,2025-01-18,3,81,Female,Allergic Reaction,Medium,68
+143,2025-02-02,15,4,Male,Injury,Medium,129
+144,2025-03-23,2,29,Female,Abdominal Pain,Low,143
+145,2025-04-16,9,48,Female,Fever,High,50
+146,2025-03-22,14,33,Male,Other,Low,76
+147,2025-02-11,9,50,Male,Breathing Difficulty,Low,131
+148,2025-04-01,7,81,Female,Fever,Medium,209
+149,2025-01-13,6,52,Female,Allergic Reaction,Medium,98
+150,2025-04-25,17,4,Male,Abdominal Pain,Medium,77
+151,2025-01-31,22,4,Male,Other,Low,51
+152,2025-03-23,16,47,Female,Allergic Reaction,Medium,232
+153,2025-01-18,1,62,Male,Fever,Low,218
+154,2025-01-17,15,26,Male,Allergic Reaction,Low,31
+155,2025-01-01,14,65,Male,Other,Medium,14
+156,2025-02-01,2,73,Female,Abdominal Pain,Medium,34
+157,2025-04-12,5,73,Male,Headache,Low,235
+158,2025-03-15,14,84,Female,Chest Pain,Medium,24
+159,2025-03-06,12,45,Female,Injury,Low,228
+160,2025-04-27,16,28,Female,Other,High,66
+161,2025-02-08,20,38,Female,Chest Pain,Low,215
+162,2025-01-23,18,38,Female,Injury,Low,238
+163,2025-04-07,9,64,Female,Injury,Low,197
+164,2025-03-08,5,64,Female,Breathing Difficulty,High,71
+165,2025-03-09,2,14,Female,Breathing Difficulty,High,157
+166,2025-03-04,6,30,Male,Headache,Low,129
+167,2025-04-06,3,47,Female,Fever,Low,109
+168,2025-04-10,7,69,Female,Other,Low,123
+169,2025-01-28,6,20,Female,Chest Pain,Medium,132
+170,2025-03-24,21,61,Male,Other,Medium,137
+171,2025-03-04,13,29,Female,Breathing Difficulty,Critical,36
+172,2025-04-29,10,16,Female,Allergic Reaction,Medium,53
+173,2025-03-19,1,44,Female,Fever,Medium,33
+174,2025-04-18,10,12,Male,Fever,Low,228
+175,2025-02-18,0,30,Male,Injury,Low,125
+176,2025-04-28,22,70,Male,Breathing Difficulty,Medium,6
+177,2025-04-04,4,55,Male,Other,Low,129
+178,2025-04-20,23,43,Male,Abdominal Pain,Low,200
+179,2025-03-17,14,50,Female,Abdominal Pain,Medium,184
+180,2025-04-24,2,64,Male,Allergic Reaction,Low,207
+181,2025-04-26,22,89,Male,Allergic Reaction,Medium,131
+182,2025-03-28,6,15,Female,Breathing Difficulty,Low,207
+183,2025-02-07,5,77,Female,Fever,High,93
+184,2025-01-12,23,42,Male,Injury,Low,94
+185,2025-01-22,17,65,Female,Breathing Difficulty,Low,65
+186,2025-02-03,1,69,Female,Other,Low,116
+187,2025-04-06,9,27,Male,Fever,Medium,78
+188,2025-02-13,19,41,Female,Injury,Medium,148
+189,2025-03-30,13,42,Female,Headache,Medium,151
+190,2025-04-07,13,11,Male,Chest Pain,Medium,109
+191,2025-04-12,1,84,Female,Allergic Reaction,High,196
+192,2025-03-15,7,77,Female,Chest Pain,High,199
+193,2025-02-10,10,52,Male,Breathing Difficulty,Low,41
+194,2025-04-12,20,72,Female,Abdominal Pain,High,127
+195,2025-02-13,14,47,Female,Breathing Difficulty,High,167
+196,2025-04-18,6,9,Male,Chest Pain,Low,115
+197,2025-04-01,9,7,Female,Chest Pain,Medium,224
+198,2025-03-13,2,2,Female,Allergic Reaction,High,236
+199,2025-01-09,6,38,Female,Breathing Difficulty,Low,80
+200,2025-03-27,22,89,Male,Chest Pain,Low,84
+201,2025-03-14,1,89,Female,Headache,High,56
+202,2025-01-29,22,73,Male,Fever,Medium,131
+203,2025-04-20,8,10,Female,Fever,Medium,53
+204,2025-01-31,22,60,Female,Breathing Difficulty,Low,67
+205,2025-03-31,3,28,Male,Fever,Medium,69
+206,2025-01-26,8,75,Male,Headache,Medium,126
+207,2025-03-20,15,34,Male,Abdominal Pain,Medium,219
+208,2025-03-23,15,45,Female,Chest Pain,Medium,139
+209,2025-03-27,7,15,Female,Chest Pain,Medium,88
+210,2025-03-04,2,52,Male,Injury,Low,147
+211,2025-01-14,12,79,Male,Fever,Low,73
+212,2025-02-11,23,13,Male,Chest Pain,Medium,31
+213,2025-02-03,13,40,Female,Other,Low,101
+214,2025-01-05,1,3,Female,Other,Medium,136
+215,2025-03-29,4,11,Female,Breathing Difficulty,Medium,134
+216,2025-04-05,23,61,Female,Abdominal Pain,High,121
+217,2025-01-29,4,79,Female,Fever,Low,154
+218,2025-02-09,14,14,Male,Fever,High,129
+219,2025-04-02,3,40,Female,Breathing Difficulty,Low,55
+220,2025-04-14,22,5,Female,Breathing Difficulty,Medium,189
+221,2025-01-10,12,26,Female,Abdominal Pain,Medium,85
+222,2025-01-08,7,1,Male,Fever,Medium,92
+223,2025-01-23,4,56,Female,Allergic Reaction,Low,147
+224,2025-02-02,23,84,Female,Chest Pain,High,188
+225,2025-01-04,5,56,Female,Headache,Low,117
+226,2025-01-10,14,4,Male,Allergic Reaction,Low,186
+227,2025-02-22,2,51,Female,Breathing Difficulty,High,218
+228,2025-03-18,17,37,Female,Breathing Difficulty,Low,23
+229,2025-03-10,3,85,Male,Breathing Difficulty,Medium,40
+230,2025-01-31,2,36,Female,Abdominal Pain,High,5
+231,2025-03-12,0,62,Female,Allergic Reaction,Low,161
+232,2025-04-21,20,50,Female,Injury,Medium,218
+233,2025-04-27,7,24,Male,Injury,Low,183
+234,2025-03-16,10,50,Male,Injury,Low,80
+235,2025-01-31,18,38,Female,Injury,Medium,34
+236,2025-01-10,8,54,Male,Other,Medium,130
+237,2025-01-03,16,71,Female,Other,Low,33
+238,2025-03-07,18,58,Male,Chest Pain,Low,214
+239,2025-04-24,7,47,Female,Abdominal Pain,Medium,75
+240,2025-04-13,0,26,Male,Breathing Difficulty,Medium,102
+241,2025-04-26,20,34,Female,Headache,Low,123
+242,2025-04-17,11,72,Male,Chest Pain,High,192
+243,2025-01-14,12,10,Male,Other,Low,22
+244,2025-03-17,16,34,Female,Chest Pain,Low,171
+245,2025-02-22,21,7,Male,Allergic Reaction,Critical,215
+246,2025-01-06,6,33,Female,Headache,Medium,237
+247,2025-04-04,4,32,Male,Injury,Low,204
+248,2025-04-22,0,35,Male,Headache,High,36
+249,2025-03-26,9,3,Male,Fever,Low,13
+250,2025-02-18,1,87,Male,Allergic Reaction,Medium,174
+251,2025-03-04,5,73,Male,Breathing Difficulty,High,208
+252,2025-02-12,8,22,Male,Headache,High,215
+253,2025-02-04,13,29,Male,Abdominal Pain,Critical,102
+254,2025-02-10,7,82,Female,Breathing Difficulty,High,64
+255,2025-02-16,7,28,Female,Other,Low,108
+256,2025-02-02,5,40,Female,Chest Pain,Medium,17
+257,2025-04-30,7,34,Male,Abdominal Pain,Low,161
+258,2025-04-05,18,50,Male,Breathing Difficulty,Low,112
+259,2025-03-28,0,19,Male,Fever,Low,157
+260,2025-02-28,2,22,Female,Injury,High,7
+261,2025-03-11,7,76,Male,Fever,Medium,43
+262,2025-02-15,19,2,Male,Other,Low,62
+263,2025-01-19,5,41,Male,Chest Pain,High,180
+264,2025-02-20,9,51,Female,Allergic Reaction,Low,15
+265,2025-04-23,19,6,Male,Fever,High,206
+266,2025-02-14,5,76,Male,Injury,Low,56
+267,2025-01-02,23,41,Female,Breathing Difficulty,Low,219
+268,2025-03-05,0,74,Male,Headache,Low,135
+269,2025-04-18,15,84,Male,Injury,Low,188
+270,2025-03-19,22,10,Male,Abdominal Pain,Low,97
+271,2025-01-19,20,12,Male,Fever,High,44
+272,2025-01-28,1,32,Male,Headache,Medium,211
+273,2025-03-25,5,30,Male,Fever,Medium,99
+274,2025-02-07,2,4,Female,Chest Pain,Medium,158
+275,2025-03-13,9,25,Female,Chest Pain,Medium,209
+276,2025-03-30,14,20,Male,Fever,Medium,186
+277,2025-04-14,5,4,Female,Headache,Low,49
+278,2025-01-16,19,65,Female,Other,Medium,87
+279,2025-02-25,19,47,Female,Abdominal Pain,Medium,162
+280,2025-01-07,15,69,Male,Other,Low,229
+281,2025-02-14,3,67,Female,Headache,High,12
+282,2025-01-10,5,20,Male,Allergic Reaction,Medium,72
+283,2025-02-20,21,7,Male,Fever,Medium,32
+284,2025-01-01,3,48,Female,Breathing Difficulty,Critical,233
+285,2025-02-14,3,28,Female,Allergic Reaction,Low,166
+286,2025-03-10,22,39,Female,Abdominal Pain,Medium,232
+287,2025-01-15,2,10,Female,Allergic Reaction,Medium,111
+288,2025-04-20,18,44,Female,Headache,Medium,178
+289,2025-04-28,4,15,Female,Fever,Low,39
+290,2025-01-05,11,50,Female,Chest Pain,Low,213
+291,2025-01-07,0,5,Female,Injury,Medium,36
+292,2025-02-12,12,24,Female,Allergic Reaction,Medium,26
+293,2025-03-15,10,77,Male,Chest Pain,Critical,23
+294,2025-02-14,15,43,Female,Chest Pain,High,15
+295,2025-04-23,10,33,Female,Abdominal Pain,Medium,16
+296,2025-04-11,6,80,Male,Abdominal Pain,High,155
+297,2025-04-01,14,80,Female,Other,Low,78
+298,2025-02-08,18,39,Male,Allergic Reaction,Low,10
+299,2025-01-21,7,49,Female,Other,Medium,49
+300,2025-01-10,3,89,Male,Allergic Reaction,Low,203
+301,2025-02-10,1,68,Male,Headache,High,64
+302,2025-01-17,23,14,Male,Fever,Medium,132
+303,2025-03-17,14,60,Male,Fever,Critical,15
+304,2025-02-09,16,48,Female,Breathing Difficulty,Medium,109
+305,2025-02-28,23,48,Female,Allergic Reaction,High,191
+306,2025-03-23,16,14,Female,Breathing Difficulty,Medium,12
+307,2025-02-09,9,12,Male,Fever,High,85
+308,2025-02-19,4,77,Male,Allergic Reaction,Medium,95
+309,2025-04-08,0,37,Female,Abdominal Pain,Low,100
+310,2025-01-12,9,56,Male,Injury,Critical,8
+311,2025-03-20,23,7,Female,Injury,Medium,76
+312,2025-04-17,3,60,Female,Breathing Difficulty,Medium,150
+313,2025-03-21,7,51,Female,Injury,Medium,183
+314,2025-01-22,12,10,Male,Allergic Reaction,Low,97
+315,2025-03-11,0,30,Female,Chest Pain,Medium,190
+316,2025-02-18,14,34,Female,Injury,Low,212
+317,2025-03-02,17,50,Female,Fever,Medium,11
+318,2025-02-28,19,36,Male,Injury,Medium,18
+319,2025-01-14,16,20,Female,Allergic Reaction,Low,19
+320,2025-04-15,7,1,Male,Abdominal Pain,High,38
+321,2025-01-04,21,21,Male,Chest Pain,Medium,135
+322,2025-02-01,6,29,Female,Allergic Reaction,Medium,63
+323,2025-03-18,2,24,Male,Chest Pain,Low,176
+324,2025-03-29,7,59,Male,Breathing Difficulty,High,55
+325,2025-01-18,22,72,Female,Injury,High,160
+326,2025-01-30,1,69,Female,Other,Medium,60
+327,2025-03-11,0,83,Female,Breathing Difficulty,Low,188
+328,2025-02-20,4,23,Male,Breathing Difficulty,Low,208
+329,2025-02-21,5,72,Female,Allergic Reaction,Medium,117
+330,2025-01-21,2,53,Female,Breathing Difficulty,Medium,60
+331,2025-01-06,18,26,Male,Fever,Low,195
+332,2025-04-30,8,81,Female,Other,High,154
+333,2025-04-19,19,40,Male,Allergic Reaction,Medium,111
+334,2025-03-12,13,22,Female,Other,Medium,216
+335,2025-03-03,22,25,Female,Breathing Difficulty,Critical,102
+336,2025-04-15,7,74,Female,Allergic Reaction,Low,33
+337,2025-01-17,21,42,Male,Allergic Reaction,Low,107
+338,2025-03-16,1,39,Male,Other,Medium,209
+339,2025-01-05,20,30,Male,Fever,Low,206
+340,2025-01-23,16,81,Female,Abdominal Pain,High,139
+341,2025-01-20,7,54,Male,Injury,Medium,92
+342,2025-03-27,10,81,Male,Chest Pain,Medium,19
+343,2025-03-15,20,53,Male,Allergic Reaction,Medium,233
+344,2025-02-05,1,61,Male,Fever,Low,216
+345,2025-02-05,14,63,Male,Other,Medium,194
+346,2025-04-23,11,22,Male,Injury,Medium,38
+347,2025-01-12,12,34,Male,Other,Low,29
+348,2025-02-11,21,7,Male,Injury,High,190
+349,2025-02-24,17,69,Male,Injury,Medium,217
+350,2025-03-24,16,23,Female,Fever,High,34
+351,2025-01-20,9,58,Male,Allergic Reaction,Low,68
+352,2025-02-11,2,2,Male,Abdominal Pain,Medium,206
+353,2025-03-23,12,83,Male,Breathing Difficulty,High,103
+354,2025-03-03,9,66,Male,Headache,Low,18
+355,2025-01-11,3,19,Male,Injury,Critical,180
+356,2025-02-06,21,29,Male,Other,Low,111
+357,2025-01-01,7,10,Male,Allergic Reaction,High,74
+358,2025-01-31,9,63,Male,Chest Pain,High,71
+359,2025-03-04,12,56,Female,Other,Medium,80
+360,2025-03-27,5,46,Male,Breathing Difficulty,Medium,49
+361,2025-02-02,7,50,Female,Chest Pain,Low,55
+362,2025-04-17,8,33,Male,Fever,Medium,210
+363,2025-04-15,18,79,Male,Abdominal Pain,Medium,47
+364,2025-03-23,5,70,Male,Fever,Medium,221
+365,2025-01-14,5,58,Female,Fever,Medium,211
+366,2025-03-09,9,81,Male,Headache,Low,12
+367,2025-04-29,9,9,Male,Breathing Difficulty,Medium,5
+368,2025-02-01,22,81,Female,Injury,High,66
+369,2025-02-02,4,33,Female,Breathing Difficulty,Low,235
+370,2025-04-07,6,30,Male,Allergic Reaction,Medium,15
+371,2025-02-08,21,52,Female,Injury,Low,28
+372,2025-02-07,17,51,Female,Other,Low,99
+373,2025-03-21,1,52,Male,Breathing Difficulty,Low,222
+374,2025-03-01,21,76,Female,Abdominal Pain,Medium,236
+375,2025-04-14,6,84,Female,Fever,Medium,201
+376,2025-01-21,2,65,Male,Chest Pain,Medium,91
+377,2025-02-01,13,42,Female,Allergic Reaction,High,44
+378,2025-03-31,1,44,Female,Chest Pain,Medium,213
+379,2025-01-01,4,87,Male,Headache,Medium,197
+380,2025-04-07,18,53,Female,Breathing Difficulty,High,14
+381,2025-01-26,16,79,Male,Breathing Difficulty,Low,143
+382,2025-03-05,14,49,Female,Fever,Medium,46
+383,2025-04-25,18,73,Female,Chest Pain,Medium,63
+384,2025-03-01,4,17,Male,Fever,Critical,19
+385,2025-01-03,2,54,Female,Injury,High,118
+386,2025-01-31,9,19,Female,Abdominal Pain,Low,158
+387,2025-01-18,3,29,Female,Fever,Medium,158
+388,2025-03-01,8,84,Male,Headache,High,201
+389,2025-03-12,17,69,Female,Headache,Low,115
+390,2025-03-05,4,77,Male,Other,High,35
+391,2025-03-28,15,11,Female,Injury,High,63
+392,2025-01-30,19,20,Female,Fever,Low,230
+393,2025-04-17,2,35,Female,Other,High,55
+394,2025-03-13,19,28,Female,Other,Low,36
+395,2025-04-03,0,65,Female,Injury,Medium,125
+396,2025-01-20,3,17,Male,Headache,Low,62
+397,2025-01-01,10,17,Female,Abdominal Pain,Medium,52
+398,2025-01-08,21,60,Female,Abdominal Pain,Low,117
+399,2025-04-04,3,26,Female,Chest Pain,Medium,130
+400,2025-02-12,21,18,Female,Headache,Low,37
+401,2025-03-29,7,87,Female,Headache,Low,208
+402,2025-02-27,8,19,Male,Other,Medium,101
+403,2025-03-22,5,42,Male,Headache,Low,195
+404,2025-01-03,12,1,Female,Abdominal Pain,Low,160
+405,2025-02-04,22,28,Male,Chest Pain,Low,189
+406,2025-02-28,23,2,Female,Abdominal Pain,Medium,191
+407,2025-03-18,6,20,Female,Allergic Reaction,High,19
+408,2025-01-11,10,76,Female,Breathing Difficulty,Medium,66
+409,2025-03-21,21,33,Male,Allergic Reaction,Low,154
+410,2025-02-02,20,44,Female,Fever,Low,145
+411,2025-03-11,5,23,Male,Chest Pain,Low,61
+412,2025-04-02,21,37,Female,Breathing Difficulty,Medium,179
+413,2025-01-17,16,9,Male,Injury,Medium,35
+414,2025-01-06,12,77,Male,Allergic Reaction,Low,128
+415,2025-03-05,4,30,Male,Allergic Reaction,Low,59
+416,2025-03-25,14,66,Male,Fever,Critical,137
+417,2025-03-17,19,63,Female,Breathing Difficulty,Low,127
+418,2025-02-12,22,24,Female,Headache,Low,183
+419,2025-02-08,7,34,Male,Headache,High,83
+420,2025-02-27,16,71,Male,Injury,Medium,74
+421,2025-01-08,19,29,Female,Fever,High,193
+422,2025-03-30,4,7,Male,Chest Pain,High,6
+423,2025-04-07,23,31,Male,Allergic Reaction,Medium,84
+424,2025-04-16,4,8,Male,Fever,Low,219
+425,2025-02-08,9,54,Female,Chest Pain,Low,53
+426,2025-04-21,15,12,Female,Fever,High,35
+427,2025-02-18,13,14,Male,Breathing Difficulty,High,97
+428,2025-04-24,21,31,Male,Fever,Medium,66
+429,2025-01-28,11,48,Male,Injury,Low,12
+430,2025-04-20,16,85,Female,Abdominal Pain,Low,236
+431,2025-03-06,15,64,Male,Fever,High,88
+432,2025-02-19,17,71,Male,Breathing Difficulty,Medium,222
+433,2025-04-01,9,6,Female,Allergic Reaction,Critical,35
+434,2025-01-10,3,15,Female,Abdominal Pain,Low,165
+435,2025-01-28,11,64,Female,Abdominal Pain,High,39
+436,2025-02-22,10,55,Female,Fever,Medium,106
+437,2025-04-01,20,67,Female,Headache,Medium,209
+438,2025-02-27,10,52,Female,Chest Pain,Low,60
+439,2025-02-18,4,26,Male,Breathing Difficulty,Low,89
+440,2025-04-24,5,75,Male,Breathing Difficulty,Medium,195
+441,2025-04-17,4,64,Male,Breathing Difficulty,Medium,223
+442,2025-01-24,22,8,Male,Other,Medium,214
+443,2025-01-26,19,72,Female,Other,Medium,90
+444,2025-01-20,21,76,Male,Headache,Medium,8
+445,2025-02-18,14,59,Male,Other,High,184
+446,2025-04-15,7,9,Female,Fever,Medium,183
+447,2025-04-08,1,23,Male,Headache,Low,89
+448,2025-03-18,13,19,Male,Headache,Medium,11
+449,2025-03-17,14,4,Male,Headache,Medium,19
+450,2025-04-04,9,70,Male,Headache,High,80
+451,2025-01-31,3,74,Male,Allergic Reaction,Low,38
+452,2025-02-01,7,2,Female,Allergic Reaction,Medium,159
+453,2025-01-29,13,15,Male,Chest Pain,Medium,80
+454,2025-04-12,18,27,Male,Breathing Difficulty,High,178
+455,2025-03-21,20,2,Female,Injury,Low,91
+456,2025-03-26,22,31,Female,Injury,Medium,142
+457,2025-01-22,22,50,Female,Fever,Low,224
+458,2025-03-26,5,14,Male,Fever,Low,39
+459,2025-04-10,3,13,Male,Chest Pain,Medium,26
+460,2025-02-16,1,44,Female,Headache,Critical,106
+461,2025-02-16,20,81,Female,Injury,Low,123
+462,2025-02-15,10,21,Male,Headache,High,111
+463,2025-04-05,3,34,Female,Allergic Reaction,Medium,143
+464,2025-03-26,22,33,Male,Allergic Reaction,Medium,112
+465,2025-01-21,19,75,Female,Headache,Low,186
+466,2025-02-19,2,71,Male,Abdominal Pain,Low,186
+467,2025-02-03,19,56,Female,Headache,Low,121
+468,2025-01-03,5,84,Male,Fever,Medium,104
+469,2025-04-08,8,39,Male,Other,High,172
+470,2025-04-08,19,41,Female,Chest Pain,Low,55
+471,2025-04-09,9,11,Male,Breathing Difficulty,Low,85
+472,2025-01-13,3,79,Female,Abdominal Pain,Low,96
+473,2025-04-19,20,54,Female,Abdominal Pain,Low,213
+474,2025-03-24,1,83,Male,Fever,High,117
+475,2025-04-21,14,16,Male,Chest Pain,Low,210
+476,2025-03-19,14,13,Male,Injury,High,17
+477,2025-03-08,0,64,Male,Allergic Reaction,Low,24
+478,2025-02-07,8,86,Female,Allergic Reaction,Medium,225
+479,2025-02-01,18,39,Male,Other,High,239
+480,2025-02-26,4,5,Male,Injury,High,205
+481,2025-03-23,20,47,Female,Breathing Difficulty,High,61
+482,2025-03-29,9,19,Male,Breathing Difficulty,Low,234
+483,2025-03-23,11,52,Female,Chest Pain,Low,38
+484,2025-02-25,13,43,Male,Breathing Difficulty,Critical,139
+485,2025-04-08,18,8,Female,Injury,Low,127
+486,2025-03-16,14,73,Female,Fever,Medium,237
+487,2025-01-16,15,46,Male,Abdominal Pain,Low,75
+488,2025-03-21,23,88,Female,Headache,Medium,222
+489,2025-03-22,6,25,Female,Breathing Difficulty,Medium,97
+490,2025-02-08,14,66,Female,Breathing Difficulty,Low,75
+491,2025-02-25,7,72,Female,Injury,Low,66
+492,2025-04-28,23,24,Male,Injury,High,59
+493,2025-02-19,12,65,Male,Headache,Low,135
+494,2025-04-01,19,27,Male,Other,Medium,179
+495,2025-01-03,22,51,Male,Allergic Reaction,Low,85
+496,2025-03-12,12,25,Female,Headache,High,105
+497,2025-04-08,23,17,Female,Breathing Difficulty,Low,130
+498,2025-01-06,5,74,Male,Other,Low,8
+499,2025-03-14,23,72,Male,Other,Medium,34
+500,2025-01-30,15,88,Female,Injury,High,176
+501,2025-04-23,6,55,Female,Abdominal Pain,Medium,8
+502,2025-01-20,7,19,Male,Fever,Low,201
+503,2025-01-26,5,73,Female,Breathing Difficulty,Low,64
+504,2025-01-16,12,66,Male,Breathing Difficulty,Low,126
+505,2025-02-24,12,89,Female,Other,Low,103
+506,2025-04-10,4,44,Female,Other,High,68
+507,2025-04-07,10,30,Male,Other,Medium,239
+508,2025-03-24,9,46,Male,Abdominal Pain,Low,32
+509,2025-02-26,15,46,Female,Allergic Reaction,Medium,114
+510,2025-02-11,12,18,Female,Allergic Reaction,High,139
+511,2025-04-01,1,35,Female,Chest Pain,Medium,147
+512,2025-01-27,11,54,Female,Fever,Medium,129
+513,2025-03-16,14,14,Female,Allergic Reaction,Critical,88
+514,2025-01-09,5,6,Male,Breathing Difficulty,Low,72
+515,2025-04-03,14,21,Female,Chest Pain,Low,220
+516,2025-02-02,14,63,Female,Chest Pain,Low,160
+517,2025-03-13,19,17,Female,Breathing Difficulty,Low,134
+518,2025-03-29,4,16,Male,Fever,Low,121
+519,2025-03-10,19,85,Female,Fever,Medium,184
+520,2025-03-28,10,39,Female,Other,Low,37
+521,2025-01-15,0,6,Male,Abdominal Pain,Low,233
+522,2025-02-05,20,3,Male,Chest Pain,Medium,104
+523,2025-03-26,18,10,Female,Abdominal Pain,High,147
+524,2025-04-22,16,51,Female,Injury,Low,174
+525,2025-02-07,5,6,Male,Other,Low,7
+526,2025-04-22,6,72,Female,Allergic Reaction,Low,180
+527,2025-03-04,20,1,Male,Allergic Reaction,High,194
+528,2025-03-09,2,1,Female,Headache,Low,62
+529,2025-01-15,23,38,Female,Allergic Reaction,Medium,16
+530,2025-02-07,15,68,Female,Abdominal Pain,Low,195
+531,2025-02-27,15,88,Female,Breathing Difficulty,Low,214
+532,2025-03-20,9,87,Male,Breathing Difficulty,High,209
+533,2025-04-19,23,67,Female,Headache,Low,106
+534,2025-02-04,9,66,Female,Abdominal Pain,Medium,6
+535,2025-02-21,0,89,Female,Fever,Low,147
+536,2025-02-20,15,87,Female,Headache,High,177
+537,2025-02-20,12,58,Female,Breathing Difficulty,Low,31
+538,2025-03-27,15,50,Female,Breathing Difficulty,Medium,38
+539,2025-01-15,20,55,Female,Fever,Low,170
+540,2025-02-22,7,46,Male,Chest Pain,Medium,6
+541,2025-01-31,18,13,Female,Injury,Critical,233
+542,2025-03-23,7,20,Female,Headache,Low,87
+543,2025-04-13,16,30,Female,Chest Pain,High,54
+544,2025-01-11,23,57,Male,Other,Low,184
+545,2025-03-03,20,16,Male,Headache,Medium,24
+546,2025-01-24,9,56,Male,Allergic Reaction,Low,39
+547,2025-01-02,18,61,Male,Chest Pain,High,80
+548,2025-01-29,12,3,Male,Fever,High,229
+549,2025-02-28,8,29,Male,Breathing Difficulty,Medium,87
+550,2025-01-11,1,60,Male,Abdominal Pain,High,202
+551,2025-04-30,8,8,Female,Other,Medium,164
+552,2025-01-12,11,35,Male,Injury,High,65
+553,2025-01-02,17,43,Male,Abdominal Pain,Medium,135
+554,2025-03-24,4,64,Male,Chest Pain,Low,53
+555,2025-02-04,3,68,Female,Breathing Difficulty,High,215
+556,2025-04-30,21,52,Female,Breathing Difficulty,Low,128
+557,2025-01-12,21,33,Male,Breathing Difficulty,Medium,75
+558,2025-02-16,12,82,Female,Headache,Medium,155
+559,2025-03-16,13,18,Female,Headache,Low,173
+560,2025-02-06,12,48,Female,Injury,Medium,143
+561,2025-01-07,2,74,Female,Other,Critical,187
+562,2025-03-05,15,55,Male,Fever,Low,132
+563,2025-04-30,10,29,Female,Allergic Reaction,Medium,53
+564,2025-03-02,6,10,Male,Fever,Low,135
+565,2025-01-04,22,34,Male,Breathing Difficulty,Low,54
+566,2025-02-20,9,12,Female,Other,Low,174
+567,2025-04-26,14,7,Male,Allergic Reaction,Low,121
+568,2025-03-01,20,10,Male,Chest Pain,Medium,160
+569,2025-02-04,20,46,Female,Fever,Critical,38
+570,2025-01-22,16,88,Male,Fever,Low,81
+571,2025-01-17,14,31,Female,Injury,Low,142
+572,2025-04-14,12,60,Male,Headache,Low,16
+573,2025-01-19,12,54,Male,Injury,Low,21
+574,2025-03-03,9,41,Male,Abdominal Pain,High,215
+575,2025-02-24,10,4,Male,Fever,High,165
+576,2025-03-02,2,39,Female,Fever,High,204
+577,2025-01-22,8,45,Female,Breathing Difficulty,Low,222
+578,2025-03-29,11,87,Female,Allergic Reaction,Medium,223
+579,2025-03-25,13,23,Male,Injury,Medium,72
+580,2025-03-13,21,4,Female,Fever,Low,230
+581,2025-01-17,8,5,Male,Headache,High,174
+582,2025-03-09,13,32,Female,Headache,Medium,67
+583,2025-02-08,16,15,Male,Other,Low,17
+584,2025-01-28,23,44,Male,Headache,High,100
+585,2025-04-07,7,34,Male,Abdominal Pain,Medium,141
+586,2025-03-29,4,52,Female,Headache,Medium,109
+587,2025-04-09,0,69,Female,Breathing Difficulty,High,228
+588,2025-03-31,19,85,Male,Breathing Difficulty,Low,18
+589,2025-04-28,7,21,Male,Abdominal Pain,High,101
+590,2025-04-24,20,34,Male,Injury,Medium,231
+591,2025-01-17,20,10,Female,Fever,Medium,140
+592,2025-03-24,17,16,Female,Other,Medium,189
+593,2025-01-20,4,66,Female,Other,High,62
+594,2025-04-24,12,16,Male,Fever,Medium,16
+595,2025-04-27,20,71,Female,Other,Medium,111
+596,2025-04-25,12,45,Female,Fever,Medium,84
+597,2025-04-07,2,22,Male,Abdominal Pain,Low,145
+598,2025-02-20,16,15,Male,Allergic Reaction,Low,221
+599,2025-03-30,17,39,Female,Allergic Reaction,Low,86
+600,2025-04-15,6,3,Male,Allergic Reaction,Low,215
